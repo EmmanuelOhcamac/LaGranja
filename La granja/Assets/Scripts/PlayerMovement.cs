@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f; // Velocidad de movimiento
@@ -10,6 +9,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
 
     private Animator animator;
+
+    public GameObject preFabTrigo;
+    public GameObject preFabJitomate;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -27,6 +30,14 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", moveY);
         animator.SetFloat("Speed", moveInput.magnitude);
 
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Instantiate(preFabTrigo, transform.position, Quaternion.identity);
+        }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            Instantiate(preFabJitomate, transform.position, Quaternion.identity);
+        }
     }
 
     void FixedUpdate()
@@ -34,4 +45,6 @@ public class PlayerMovement : MonoBehaviour
         // Mover el personaje
         rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
     }
+
+   
 }

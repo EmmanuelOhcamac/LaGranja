@@ -12,7 +12,7 @@
 
 # \## Práctica
 
-# \*\*Título de la práctica:\*\* Tilemap
+# \*\*Título de la práctica:\*\* Siembra de semillas
 
 # \*\*Fecha de entrega:\*\* 13/08/2025
 
@@ -20,21 +20,17 @@
 
 # \## Descripción
 
-# Aplicación de movimiento y animación para:
+# Animación y secuencia de tiempo para:
 
-# > Player
+# > Trigo
 
-# > Gallina
-
-
-
-# Mecánica "intanciar huevo" para:
-
-# > Gallina
+# > Jitomate
 
 
 
-# Diseño de Tilemap para elescenario.
+# Aplicación de mecánica:
+
+# > Plantación de semillas con teclas "B" y "C"
 
 
 
@@ -48,7 +44,7 @@
 
 # \- Plataforma: Web
 
-# \- Controles:
+# \- Controles: "W", "A", "S", "D", "B" y "C".
 
 # 
 
