@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator animator;
 
+    public float huevos = 0;
+    [SerializeField] private CantHuevos cantHuevos;
+
     public GameObject preFabTrigo;
     public GameObject preFabJitomate;
 
@@ -46,5 +49,13 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
     }
 
-   
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Huevo"))
+        {
+            cantHuevos.SumarPuntos(1);
+            Destroy(collision.gameObject);
+            huevos = huevos + 1;
+        }
+    }
 }

@@ -14,23 +14,15 @@
 
 # \*\*Título de la práctica:\*\* Siembra de semillas
 
-# \*\*Fecha de entrega:\*\* 13/08/2025
+# \*\*Fecha de entrega:\*\* 14/08/2025
 
 # 
 
 # \## Descripción
 
-# Animación y secuencia de tiempo para:
-
-# > Trigo
-
-# > Jitomate
-
-
-
-# Aplicación de mecánica:
-
-# > Plantación de semillas con teclas "B" y "C"
+* # Sistema de vida de huevos
+* # Aplicación de sistema de inventario
+* # Activación de UI para conteo de huevos
 
 
 
