@@ -4,15 +4,15 @@
 
 # \## Nombre del alumno/a:
 
-# \*\*Nombre(s):\*\* Arzate Camacho Emmanuel  
+# \*\*Nombre(s):\*\* Arzate Camacho Emmanuel
 
 # \*\*Iniciales:\*\* ACE
 
 # 
 
-# \## Práctica #
+# \## Práctica
 
-# \*\*Título de la práctica:\*\* Creación de repositorio
+# \*\*Título de la práctica:\*\* Tilemap
 
 # \*\*Fecha de entrega:\*\* 13/08/2025
 
@@ -20,19 +20,35 @@
 
 # \## Descripción
 
-# Creación de repositorio para la materia.
+# Aplicación de movimiento y animación para:
 
-# 
+# > Player
+
+# > Gallina
+
+
+
+# Mecánica "intanciar huevo" para:
+
+# > Gallina
+
+
+
+# Diseño de Tilemap para elescenario.
+
+
+
+
 
 # \## Instrucciones de uso
 
 # 
 
-# \- Unity versiÃ³n: 2022.3.x LTS
+# \- Unity versión: 2022.3.x LTS
 
 # \- Plataforma: Web
 
-# \- Controles: 
+# \- Controles:
 
 # 
 
